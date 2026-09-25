@@ -1,0 +1,17 @@
+[package]
+name = "vast7-engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "23.0"
+winit = { version = "0.30" }
+egui = "0.30"
+egui-winit = { version = "0.30", default-features = false, features = ["wayland", "x11"] }
+egui-wgpu = "0.30"
+bytemuck = { version = "1.21", features = ["derive"] }
+glam = "0.29"
+pollster = "0.4"
+raw-window-handle = "0.6"
+env_logger = "0.11"
+log = "0.4"
